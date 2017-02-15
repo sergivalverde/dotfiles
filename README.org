@@ -1,0 +1,10 @@
+# Dotfiles  
+
+Some configuration files for my everyday GNU/Linux tools. Most of them are pretty default. 
+
+- tmux 
+- i3 window manager 
+- emacs 
+- terminator 
+
+
