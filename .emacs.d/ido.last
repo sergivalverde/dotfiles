@@ -1,0 +1,380 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/s/Dropbox/w/CNN/paper/neuroimage/" . "revision_v1/")
+ ("/home/s/Dropbox/w/CNN/paper/" . "neuroimage/")
+ ("/home/s/Dropbox/w/CNN/neuroimage/" . "revision_v1/")
+ ("/home/s/Dropbox/w/CNN_STRUCT/" . "analysis/")
+ ("/home/s/Dropbox/w/lab_notebook/papers/" . "Kamnitsas_2017/")
+ ("/home/s/Dropbox/w/lab_notebook/" . "papers/")
+ ("/home/s/tmp/sergivalverde.github.io/assets/revealjs/css/" . "theme/")
+ ("/home/s/tmp/sergivalverde.github.io/assets/revealjs/" . "css/")
+ ("/home/s/tmp/sergivalverde.github.io/assets/" . "revealjs/")
+ ("/home/s/tmp/sergivalverde.github.io/_slides/" . "mri_analysis/")
+ ("/home/s/w/CNN/neuroimage/" . "revision_v1/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/base2Dmulti/" . "atlas/")
+ ("/home/s/w/lab_notebook/papers/" . "Kamnitsas_2017/")
+ ("/home/s/w/lab_notebook/" . "papers/")
+ ("/home/s/tmp/new_site/blog/_sass/" . "bootstrap/")
+ ("/home/s/tmp/new_site/blog/" . "_data/")
+ ("/home/s/tmp/new_site/" . "blog/")
+ ("/sshx:" . "knuth/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/base/" . "atlas/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_keras/" . "cnn-ms-lesion-segmentation/")
+ ("/home/s/w/CNN_STRUCT/" . "analysis/")
+ ("/sshx:knuth:/mnt/DATA/w/UNET/Recipes/examples/" . "UNet/")
+ ("/sshx:knuth:/mnt/DATA/w/UNET/Recipes/" . "modelzoo/")
+ ("/sshx:knuth:/mnt/DATA/w/UNET/" . "Recipes/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/" . "2d_cascade/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN_CORT/" . "code/")
+ ("/sshx:knuth:" . "Descargas/")
+ ("/home/s/w/CNN/analysis/" . "preprocessing/")
+ ("/home/s/.emacs.d/" . "snippets/")
+ ("/home/s/.ipython/" . "extensions/")
+ ("/home/s/Documents/w/phd/personal_webpage/" . "startbootstrap-one-page-wonder-1.0.3/")
+ ("/home/s/tmp/sergivalverde.github.io/" . "css/")
+ ("/home/s/Documents/w/phd/published_papers/NIC2014/" . "paper/")
+ ("/home/s/tmp/webpage/" . "css/")
+ ("/sshx:knuth:/home/s/tmp/" . "MSSEG/")
+ ("/sshx:knuth:/mnt/DATA/w/PRE/code/" . "pipelines_experiment_3/")
+ ("/sshx:knuth:/" . "mnt/")
+ ("/sshx:knuth:/mnt/DATA/w/PRE/" . "code/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/old/" . "CNN_CASCADE/")
+ ("/sshx:knuth:/home/s/.local/lib/python2.7/site-packages/nolearn/" . "lasagne/")
+ ("/sshx:knuth:/home/s/.local/lib/python2.7/site-packages/" . "nolearn/")
+ ("/sshx:knuth:/home/s/.local/lib/python2.7/" . "site-packages/")
+ ("/sshx:knuth:/home/s/.local/lib/" . "python2.7/")
+ ("/sshx:knuth:/home/s/.local/" . "lib/")
+ ("/home/s/.local/lib/python2.7/" . "site-packages/")
+ ("/home/s/.local/lib/" . "python2.7/")
+ ("/home/s/.local/" . "lib/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/lib/python2.7/site-packages/nolearn/" . "lasagne/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/lib/python2.7/" . "site-packages/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/lib/" . "python2.7/")
+ ("/sshx:knuth:/mnt/DATA/" . "w/")
+ ("/sshx:knuth:/mnt/" . "DATA/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/code/" . "LS_CNN3D/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/" . "code/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/code/" . "CNN_3D/")
+ ("/sshx:knuth:/mnt/DATA/w/CNN/" . "code/")
+ ("/sshx:knuth:/mnt/DATA/w/" . "CNN_CORT/")
+ ("/home/s/Documents/w/phd/published_papers/MIA2016/MIA/" . "paper/")
+ ("/home/s/Documents/w/phd/published_papers/NIC2015/ALF/" . "paper/")
+ ("/home/s/Documents/w/phd/published_papers/NIC2015/NIC/" . "first_submission/")
+ ("/home/s/Documents/w/phd/published_papers/NIC2015/" . "ALF/")
+ ("/home/s/Documents/w/phd/published_papers/" . "NIC2014/")
+ ("/home/s/Documents/w/phd/published_papers/MIA2016/" . "MIA/")
+ ("/home/s/Documents/w/" . "phd/")
+ ("/home/s/Documents/" . "w/")
+ ("/home/s/Documents/w/phd/phd_thesis/paper/" . "chapters/")
+ ("/home/s/Documents/w/phd/phd_thesis/" . "paper/")
+ ("/home/s/Documents/w/phd/" . "personal_webpage/")
+ ("/home/s/w/CNN/" . "paper/")
+ ("/home/s/w/" . "CNN_STRUCT/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/old/" . "CNN_CASCADE/")
+ ("/sshx:knuth:/home/" . "s/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/code/" . "LS_CNN3D/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/local/lib/python2.7/site-packages/nolearn/" . "lasagne/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/local/lib/python2.7/site-packages/" . "nolearn/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/local/lib/" . "python2.7/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/local/" . "lib/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/CNN_CASCADE/" . "RFCM/")
+ ("/sshx:llebre:/home/sergivalverde/w/CNN/code/test/" . "LS_CNN3D/")
+ ("/home/s/Dropbox/w/phd/published_papers/MIA2016/MIA/" . "paper/")
+ ("/home/s/Dropbox/w/phd/published_papers/MIA2016/" . "MIA/")
+ ("/home/s/Dropbox/w/phd/published_papers/" . "MIA2016/")
+ ("/sshx:llebre:/home/sergivalverde/w/CNN/code/CNN1/CNN_LOU/" . "data_manipulation/")
+ ("/sshx:llebre:/home/" . "sergivalverde/")
+ ("/sshx:llebre:/" . "home/")
+ ("/sshx:llebre:/home/sergivalverde/w/CNN/code/CNN1/CNN_CASCADE2/" . "data_manipulation/")
+ ("/sshx:llebre:/home/sergivalverde/w/CNN/code/CNN1/" . "CNN_LOU/")
+ ("/sshx:llebre:/home/sergivalverde/w/CNN/code/" . "test/")
+ ("/sshx:llebre:/home/sergivalverde/w/CNN/" . "code/")
+ ("/sshx:llebre:/home/sergivalverde/w/" . "CNN/")
+ ("/sshx:llebre:/home/sergivalverde/" . "w/")
+ ("/sshx:knuth:/home/s/w/" . "CNN/")
+ ("/sshx:knuth:/home/s/" . ".local/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/CNN_3D/" . "code/")
+ ("/sshx:knuth:/home/s/w/CNN/code/python/" . "CNN_3D/")
+ ("/sshx:knuth:/home/s/w/CNN/code/" . "python/")
+ ("/sshx:knuth:/home/s/w/CNN/" . "code/")
+ ("/home/s/Dropbox/w/master/vibot/academic/vibot2/3rd/PRFIP/labs/" . "2011_lab3/")
+ ("/home/s/Dropbox/w/master/vibot/academic/vibot2/3rd/PRFIP/" . "labs/")
+ ("/home/s/Dropbox/w/master/vibot/academic/vibot2/3rd/" . "PRFIP/")
+ ("/home/s/Dropbox/w/master/vibot/academic/vibot2/" . "3rd/")
+ ("/home/s/Dropbox/w/master/vibot/academic/" . "vibot2/")
+ ("/home/s/Dropbox/w/master/vibot/" . "academic/")
+ ("/home/s/Dropbox/w/master/" . "vibot/")
+ ("/home/s/Dropbox/w/CNN/" . "paper/")
+ ("/home/s/Dropbox/w/phd/MSSEG/MIA/" . "paper/")
+ ("/home/s/Dropbox/phd/MSSEG/MIA/review/" . "paper_new/")
+ ("/home/s/Dropbox/phd/MSSEG/MIA/" . "review/")
+ ("/home/s/Dropbox/phd/MSSEG/" . "MIA/")
+ ("/home/s/Dropbox/phd/" . "MSSEG/")
+ ("/home/s/Dropbox/w/phd/MSSEG/" . "MIA/")
+ ("/home/s/Dropbox/w/phd/" . "published_papers/")
+ ("/home/s/Dropbox/w/" . "CNN/")
+ ("/sshx:s@mariby.udg.edu:/home/" . "s/")
+ ("/home/s/.nixnote/db-1/" . "dba/")
+ ("/home/s/.nixnote/" . "db-1/")
+ ("/" . "mnt/")
+ ("/home/s/Dropbox/.org/" . ".refs/")
+ ("/sshx:s@mariby.udg.edu:/home/s/w/CNN/code/python/CNN_3D/MSSEG_MICCAI2016/" . "data_manipulation/")
+ ("/sshx:s@mariby.udg.edu:/home/s/" . "w/")
+ ("/home/s/tmp/" . "sergivalverde.github.io/")
+ ("/home/s/Dropbox/" . "w/")
+ ("/sshx:s@mariby.udg.edu:/home/s/w/CNN/code/python/CNN_3D/" . "CNN_CASCADE/")
+ ("/sshx:s@mariby.udg.edu:/home/s/w/CNN/code/python/" . "CNN_3D/")
+ ("/sshx:s@mariby.udg.edu:/home/s/w/CNN/code/" . "python/")
+ ("/sshx:s@mariby.udg.edu:/home/s/w/CNN/" . "code/")
+ ("/sshx:s@mariby.udg.edu:/home/s/w/" . "CNN/")
+ ("/home/s/" . "Dropbox/")
+ ("/home/" . "s/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/s/Dropbox/w/CNN/paper/sources/"
+ "/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_keras/cnn-ms-lesion-segmentation/"
+ "/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/2d_cascade/"
+ "/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/code/LS_CNN3D/"
+ "/home/s/.ssh/"
+ "/home/s/Dropbox/.org/.refs/"
+ "/home/s/Dropbox/w/CNN/paper/neuroimage/revision_v1/"
+ "/home/s/Dropbox/w/CNN/paper/"
+ "/home/s/tmp/sergivalverde.github.io/_posts/"
+ "/home/s/tmp/sergivalverde.github.io/css/"
+ "/home/s/tmp/sergivalverde.github.io/_includes/"
+ "/home/s/tmp/sergivalverde.github.io/_layouts/"
+ "/home/s/tmp/sergivalverde.github.io/"
+ "/home/s/Dropbox/w/CNN/neuroimage/revision_v1/"
+ "/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/base_15classes/"
+ "/sshx:knuth:/mnt/DATA/w/CNN/code/CNN_3D/code/evaluations/"
+ "/sshx:knuth:"
+ "/home/s/Dropbox/w/CNN_STRUCT/analysis/"
+ "/home/s/Dropbox/w/lab_notebook/papers/Kamnitsas_2017/"
+ "/home/s/tmp/sergivalverde.github.io/_slides/mri_analysis/"
+ "/home/s/tmp/sergivalverde.github.io/assets/revealjs/css/"
+ "/home/s/tmp/sergivalverde.github.io/assets/revealjs/css/theme/"
+ "/home/s/tmp/sergivalverde.github.io/_slides/s/"
+ "/home/s/tmp/slides/"
+ "/home/s/w/CNN_STRUCT/analysis/"
+ "/home/s/w/CNN/paper/"
+ "/home/s/w/CNN/neuroimage/revision_v1/"
+ "/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/2d_cascade_gt2/"
+ "/sshx:knuth:/mnt/DATA/w/CNN_CORT/code/base2Dmulti/"
+ "/home/s/tmp/test_ROC/"
+ "/sshx:knuth:/mnt/DATA/w/CNN/code/LS_CNN3D/"
+ "/home/s/"
+ "/home/s/w/lab_notebook/papers/Kamnitsas_2017/"
+ "/home/s/tmp/sergivalverde.github.io/_pages/"
+ "/home/s/tmp/sergivalverde.github.io/_data/"
+ "/home/s/tmp/new_site/blog/"
+ "/home/s/tmp/new_site/blog/_data/"
+ "/home/s/tmp/new_site/blog/_posts/"
+ "/home/s/tmp/new_site/blog/_pages/"
+ "/home/s/tmp/new_site/blog/css/"
+ "/home/s/tmp/new_site/blog/_includes/"
+ "/home/s/tmp/new_site/blog/_layouts/"
+ "/home/s/tmp/new_site/blog/_sass/bootstrap/"
+ "/home/s/tmp/new_site/blog/_sass/"
+ "/home/s/tmp/new_site/blog/_site/css/"
+ "/home/s/tmp/new_site/blog/_site/"
+ "/home/s/tmp/new_site/blog/_site/about/"
+ "/home/s/tmp/new_site/"
+ "/sshx:knuth:/mnt/DATA/w/PRE/code/pipelines_experiment_3/"
+ "/sshx:knuth:/mnt/DATA/w/PRE/code/evaluation/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "main.tex"
+ "README.md"
+ "config.py"
+ "data_utils.py"
+ "train_leave_one_out.py"
+ ".gitignore"
+ "evaluate_miccai2012.py"
+ "build_model_nolearn.py"
+ "build_model.py"
+ "data_creation.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/s/" (22691 4217 328051 880000) "Music/" ".bashrc.bak" ".tmux/" "Downloads/" ".emacs" ".pki/" ".zcompdump" ".dmrc" ".java/" ".bashrc" "Documents/" ".bash_it/" ".screenlayout/" ".PyCharm2016.2/" ".dropbox-dist/" ".ICEauthority" ".aspell.en.pws" ".thumbnails/" ".subversion/" ".cache/" ".deft/" ".geeknote/" ".tmux.conf.local~" ".oh-my-zsh/" ".gnome/" ".theano/" ".wicd/" ".conda/" ".kde/" "Desktop/" ".bashrc~" ".zsh_history" ".adobe/" "Templates/" ".tmux.conf.local" ".hplip/" ".gnupg/" ".config/" ".python-eggs/" ".bash_history" ".aspell.en.prepl" ".xsession-errors" ".nixnote/" ".atom/" ".ipython/" ".zshrc~" ".nano/" "Public/" "Pictures/" "#*message*-20170214-151208#" ".matlab/" ".xmonad/" ".jupyter/" ".xsession-errors.old" ".ssh/" ".texmf-var/" ".bashrc-anaconda2.bak" ".gimp-2.8/" ".i3/" ".xscreensaver" ".bash_logout" ".profile" ".gvfs/" ".zsh-update" ".mozilla/" ".bundle/" ".zcompdump-dijsktra-5.1.1" ".Xauthority" ".macromedia/" ".local/" ".gphoto/" ".fehbg" ".gnome2_private/" ".wget-hsts" ".xinputrc" ".zshrc" ".compiz/" ".itksnap.org/" ".emacs~" ".dbus/" "w/" "Videos/" ".sudo_as_admin_successful" ".putty/" ".thunderbird/" ".gconf/" ".gnome2/" ".gem/" "scripts/" ".fltk/" ".dropbox/" "./" ".dirs" ".emacs.d/" "Dropbox/" ".tmux.conf" ".gitconfig" "tmp/" "../" "dev/" ".continuum/")
+
+ ("/home/s/Dropbox/w/CNN/paper/" (22684 34263 27766 745000) "main.tex.bbl" "main.tex.toc" "CNN_testing.eps" "main.aux" "main.tex.tex" "CNN_testing-eps-converted-to.pdf" "main.tex.aux" "figure_roc-eps-converted-to.pdf" "figure_1a-eps-converted-to.pdf" "main.tex.log" "figure_roc.png" "main.log" ".git/" "main.spl" "main.tex.tex~" "main.tex.blg" "fig_corr_lesion_MS1.eps" "figure_4a-eps-converted-to.pdf" "input_pipeline_1.eps" "figure_2-eps-converted-to.pdf" "ppv_MS1-eps-converted-to.pdf" "main.tex.out" "figure_roc.eps" "training_algorithm.eps" "main.pdf" "sources/" "pipeline_a-eps-converted-to.pdf" "input_pipeline.eps" "main.tex" "figures/" "elsarticle.cls" "figure_scans_MS1-eps-converted-to.pdf" "mats/" "pipeline_a.eps" "main.bbl" "ppv_MS2-eps-converted-to.pdf" "pipeline_b-eps-converted-to.pdf" "pipeline_b.eps" "figure_1b-eps-converted-to.pdf" "fig_corr_lesion_MS1-eps-converted-to.pdf" "main.blg" "todo.org" "neuroimage/" "ppv_MS2.eps" "figure_3-eps-converted-to.pdf" "fig_corr_lesion_MS2.eps" "ppv_MS1.eps" "./" "bibtex.bib" "figure_4b-eps-converted-to.pdf" ".#tables.org" "fig_corr_lesion_MS2-eps-converted-to.pdf" "../" ".gitignore" "main.bbl~")
+
+ ("/home/s/Dropbox/w/CNN/paper/neuroimage/revision_v1/" (22687 16056 342579 793000) "cover_letter.docx" "comments_reviewers.org" "figure_1.png" "comments_reviewers.blg" "comments_reviewers.bbl" "cover_letter.pdf" "comments_reviewers.pdf" "comments_reviewers.tex~" "comments_reviewers.org~" "./" "NIMG-16-2872R1.pdf" "../" "comments_reviewers.tex")
+
+ ("/home/s/Dropbox/.org/.refs/" (22689 49806 38917 652000) "library.bib" "library.bib~" "./" "../")
+
+ ("/home/s/Dropbox/w/CNN/paper/sources/" (22684 33728 973072 110000) "fig5a.eps" "sources.zip" "fig1b.eps" "fig2.eps" "main.tex" "elsarticle.cls" "fig4.eps" "fig3.eps" "./" "fig5b.eps" "bibtex.bib" "fig1a.eps" "../")
+
+ ("/home/s/.ssh/" (22573 50768 292870 749000) "config~" "config" "id_rsa.pub" "known_hosts" "./" "../" "id_rsa")
+
+ ("/home/s/tmp/sergivalverde.github.io/_layouts/" (22682 58627 721313 479000) "slides.html~" "slide.html" "slide.html~" "slides.html" "general.html" "default.html" "inner.html" "./" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/_posts/" (22682 57821 313525 308000) "2017-02-03-Kamnitsas2017.md~" "2017-02-03-Kamnitsas2017.md" "2017-01-14-new_website.md" "./" "../")
+
+ ("/home/s/Dropbox/w/CNN/paper/neuroimage/" (22677 42049 372332 292000) "cover_letter.docx" "revision_v1/" "comments_arnau.pdf" "highlights.pdf" "YNIMG-S-16-03520-1.pdf" "highlights.docx" "cover_letter.pdf" "./" "../")
+
+ ("/home/s/Dropbox/w/CNN/" (22680 46999 311156 434000) "analysis/" "MSSEG_challenge_paper/" ".ipynb_checkpoints/" "NRAD_pipelines/" "input_pipeline.eps" "mats/" "paper/" "./" "../")
+
+ ("/home/s/Dropbox/" (22682 54019 771321 489000) "resume_valverde.pdf" ". org/" ".org/" "Apps/" "Public/" "docs/" "cv_ml.pdf" ".dropbox.cache/" "shared/" "w/" ".dropbox" "./" "tmp/" "../" "salaries.ods")
+
+ ("/home/s/tmp/" (22682 57275 222977 761000) "test_figure.eps" "content_shell.pak" "generate_table.org" "#test.org#~" "process_ISBI_labels.py~" "draw_convnet/" "CHB_test1_Case15_segmentation.nrrd" "sergivalverde.github.io/" "test_ROC/" "test_magit/" "MNI_atlas/" "soft.png" "test_scans.zip" "test_rotation.py~" "screenshot.jpg" "624_gt.png" "org.tex~" "org.org~" "T1W_SE_2/" "test_IBSR18/" "mint/" "test_org/" "#test_rotation.py#" "LICENSE" "new_site/" "slides/" "test.org" "libnotify.so.4" ".ipynb_checkpoints/" "untitled.txt" "test_da/" "formula.png" "libgcrypt.so.11" "MICCAI2008/" "CHB_test1_Case10_segmentation.nrrd" "test_rotation.py" "libnode.so" "p_project/" "icudtl.dat" "id_rsa.pub" "1000_3.nii.gz" "624.png" "hello.png" "IBSR_nifti_stripped/" "test2.org" "process_ISBI_labels.py" "org.org" "org.pdf" "test.html" "test_dataset/" "T1W_SE/" "snapshot_blob.bin" "org-spec/" "header.png" "org.tex" "LICENSES.chromium.html" "crop_images/" "IBSR18/" "segmentations/" "webpage/" "visualize_CNN/" "ROC_NI/" "cv/" "matlab-utils/" "624_figure.xcf" "myfig2.pdf" "prior_atlas_4D.nii.gz" "1001_3.nii.gz" "myfig.pdf" "hello.png~" "python-matplot-fig.png" "__MACOSX/" "natives_blob.bin" "MSSEG2016/" "version" "IBSR_02_ANALYZE.tgz" "structs/" "locales/" "dotfiles/" "resources/" "./" "laverna" "test_gt.nii.gz" "#process_ISBI_labels.py#" "generate_table.org~" "#test.org#" "IBSI18/" "IBSR18_ORIG/" "../" "CH2008/" "startbootstrap-blog-post-gh-pages/" "T1W_SE_1/" "test2.org~")
+
+ ("/home/s/tmp/sergivalverde.github.io/css/" (22682 55728 656021 736000) "one-page-wonder.css" "bootstrap.css" "bootstrap.min.css" "./" "../" "style.scss")
+
+ ("/home/s/tmp/sergivalverde.github.io/_includes/" (22682 55735 4052 961000) "pagination.html" "header.html" "footer.html" "./" "title-group.html" "../" "tile.html")
+
+ ("/home/s/Dropbox/w/CNN/neuroimage/revision_v1/" (22680 45808 194532 201000) "comments_reviewers.org" "figure_1.png" "comments_reviewers.blg" "comments_reviewers.bbl" ".#comments_reviewers.org" "comments_reviewers.pdf" "comments_reviewers.tex~" "comments_reviewers.org~" "./" "../" "comments_reviewers.tex")
+
+ ("/home/s/tmp/ROC_NI/" (22680 14936 821547 31000) "roc_example.ipynb" "all_stats_results_vh2.mat" ".ipynb_checkpoints/" "example.ipynb" "ROC_values_test.mat" "./" "../")
+
+ ("/home/s/Dropbox/w/CNN/neuroimage/" (22677 42049 372332 292000) "cover_letter.docx" "revision_v1/" "comments_arnau.pdf" "highlights.pdf" "YNIMG-S-16-03520-1.pdf" "highlights.docx" "cover_letter.pdf" "./" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/_pages/" (22676 28999 703543 12000) "software.md" "contact.md" "about.md" "./" "../" "publications.md")
+
+ ("/home/s/tmp/sergivalverde.github.io/" (22676 29029 883591 976000) "_includes/" ".sass-cache/" "assets/" "_posts/" "_layouts/" "_data/" ".git/" "atom.xml" "reveal.js/" "docs/" "css/" "media/" "_site/" "index.html" "_pages/" "feed.xml" "_slides/" "CVpapers/" "_sass/" "fonts/" "_config.yml" "./" "img/" "js/" "../" ".gitignore")
+
+ ("/home/s/tmp/slides/" (22676 16929 491342 996000) "template-revealjs.html" "#test.html#" "test.org~" "test.org" "slides.md" "test.html" "slides.html" "./" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/assets/revealjs/css/theme/" (22676 13273 502172 25000) "simple.css" "source/" "night.css" "black.css" "moon.css" "league.css" "beige.css" "white2.css" "white.css~" "solarized.css" "sky.css" "serif.css" "README.md" "template/" "white2.css~" "blood.css" "./" "../" "white.css")
+
+ ("/home/s/tmp/sergivalverde.github.io/_slides/mri_analysis/" (22676 20523 39382 524000) "media/" "index.html" "./" "../")
+
+ ("/home/s/Dropbox/w/CNN_STRUCT/analysis/" (22677 31782 743268 457000) "pipeline.svg" "table.tex" "screenshot_2017-01-02_12-44-24.png" "classes.png" "screenshot_2017-01-02_12-17-22.png" "screenshot_2017-01-02_12-25-11.png" "LesionReplication_Sandra.pdf" "second_analysis.pdf" "table.org" "pipeline.png" "screenshot_2017-01-02_12-49-37.png" "second_analysis.tex~" "first_analysis.pdf" "table.blg" "second_analysis.org_archive" "first_analysis.tex~" "first_analysis.org" "screenshot_2017-01-02_12-24-42.png" "table.tex~" "second_analysis.blg" "second_analysis.bbl" "first_analysis.org~" "table.pdf" "second_analysis.org" "table.bbl" "second_analysis.tex" "second_analysis.org~" "./" "first_analysis.tex" "../" "table.org~")
+
+ ("/home/s/Dropbox/w/CNN_STRUCT/" (22667 8432 347050 0) "analysis/" "figures/" "./" "../")
+
+ ("/home/s/Dropbox/w/lab_notebook/papers/Kamnitsas_2017/" (22676 27264 8709 171000) "Kamnitsas - 2016 - Unsupervised domain adaptation in brain lesion segmentation with adversarial networks(1).pdf" "summary.org" "media/" "summary.org~" "./" "../")
+
+ ("/home/s/Dropbox/w/lab_notebook/papers/" (22647 43862 886580 0) "readme.org" "Kamnitsas_2017/" "readme.org~" "./" "../")
+
+ ("/home/s/Dropbox/w/lab_notebook/" (22647 42500 647711 0) "papers/" ".git/" "./" "../" ".gitignore")
+
+ ("/home/s/Dropbox/w/" (22675 21740 707905 734000) "phd/" "CNN_STRUCT/" "CNN/" "lab_notebook/" "./" "../" "CNN_review/")
+
+ ("/home/s/Dropbox/.org/" (22674 51792 889646 329000) ".refs/" "lab_notebook.org" "links.org" "idees.org" "lab_notebook.pdf" "lab_notebook.org~" "lab_notebook_blank.org" "media/" "Getting Started with Orgzly.org" "./" "lab_notebook.tex" "general_tasks.org" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/_slides/" (22676 19748 166519 43000) "mri_analysis/" "./" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/assets/revealjs/css/" (22675 26067 888818 56000) "reveal.scss" "theme/" "./" "reveal.css" "../" "print/")
+
+ ("/home/s/tmp/sergivalverde.github.io/assets/revealjs/" (22675 26098 348312 131000) "lib/" "Gruntfile.js" "demo.html" "CONTRIBUTING.md" "LICENSE" "plugin/" "css/" "README.md" "index.html" "bower.json" "package.json" "test/" "./" "js/" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/assets/" (22675 26098 348312 131000) "revealjs/" "./" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/_slides/s/" (22675 38444 723875 424000) "index.html~" "custom.css~" "custom.css" "index.html" "./" "../")
+
+ ("/home/s/tmp/sergivalverde.github.io/_data/" (22675 25746 764942 659000) "nav.yml" "./" "../" "global.yml")
+
+ ("/home/s/tmp/test_ROC/" (22674 49277 830798 538000) "#test_roc.ipynb#" "README.org" "roc_example.ipynb" "TEST_ROC.ipynb~" ".ipynb_checkpoints/" ".media/" "test_roc.html~" ".git/" ".tmp/" "test_roc.py" "Untitled.ipynb" "test_roc.tex~" "test_roc.pyg" "test_roc.pdf" "test_roc.html" "test_roc.tex" "test_roc.org" "roc_example.ipynb~" "./" "TEST_ROC.ipynb" "../")
+
+ ("/home/s/w/CNN/neuroimage/revision_v1/" (22674 50360 29664 590000) "comments_reviewers.org" "comments_reviewers.blg" "comments_reviewers.bbl" "comments_reviewers.pdf" "comments_reviewers.tex~" "comments_reviewers.org~" "./" "../" "comments_reviewers.tex")
+
+ ("/home/s/w/CNN/paper/" (22674 15638 131134 704000) "CNN_testing.eps" "main.aux" "CNN_testing-eps-converted-to.pdf" "figure_1a-eps-converted-to.pdf" "#bibtex.bib#" "main.log" ".git/" "main.spl" "fig_corr_lesion_MS1.eps" "figure_4a-eps-converted-to.pdf" "input_pipeline_1.eps" "figure_2-eps-converted-to.pdf" "ppv_MS1-eps-converted-to.pdf" "training_algorithm.eps" "main.pdf" "pipeline_a-eps-converted-to.pdf" "input_pipeline.eps" "main.tex" "figures/" "elsarticle.cls" "figure_scans_MS1-eps-converted-to.pdf" "mats/" "pipeline_a.eps" "main.bbl" "ppv_MS2-eps-converted-to.pdf" "pipeline_b-eps-converted-to.pdf" "pipeline_b.eps" "figure_1b-eps-converted-to.pdf" "fig_corr_lesion_MS1-eps-converted-to.pdf" "main.blg" "#main.tex#" "todo.org" "ppv_MS2.eps" "figure_3-eps-converted-to.pdf" "fig_corr_lesion_MS2.eps" "ppv_MS1.eps" "./" "bibtex.bib" "figure_4b-eps-converted-to.pdf" ".#tables.org" "fig_corr_lesion_MS2-eps-converted-to.pdf" "../" "main.bbl~")
+
+ ("/home/s/w/CNN_STRUCT/analysis/" (22674 60040 763121 464000) "pipeline.svg" "screenshot_2017-01-02_12-44-24.png" "classes.png" "screenshot_2017-01-02_12-17-22.png" "screenshot_2017-01-02_12-25-11.png" "LesionReplication_Sandra.pdf" "second_analysis.pdf" "pipeline.png" "screenshot_2017-01-02_12-49-37.png" "second_analysis.tex~" "first_analysis.pdf" "second_analysis.org_archive" "first_analysis.tex~" "first_analysis.org" "screenshot_2017-01-02_12-24-42.png" "second_analysis.blg" "second_analysis.bbl" "first_analysis.org~" "second_analysis.org" "second_analysis.tex" "second_analysis.org~" "./" "first_analysis.tex" "../")
+
+ ("/home/s/w/CNN_STRUCT/" (22667 8432 347050 208000) "analysis/" "figures/" "./" "../")
+
+ ("/home/s/w/CNN/neuroimage/" (22653 51231 677790 872000) "cover_letter.docx" "revision_v1/" "highlights.pdf" "YNIMG-S-16-03520-1.pdf" "highlights.docx" "cover_letter.pdf" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_site/" (22651 22665 638033 933000) "software/" "publications/" "atom.xml" "Contact/" "docs/" "css/" "README.md" "new_website.html" "index.html" "feed.xml" "about/" "./" "img/" "js/" "../")
+
+ ("/home/s/tmp/new_site/blog/css/" (22651 23511 598398 189000) "one-page-wonder.css" "bootstrap.css~" "bootstrap.css" "bootstrap.min.css" "one-page-wonder.css~" "./" "../" "style.scss")
+
+ ("/home/s/tmp/new_site/blog/" (22652 37963 48760 741000) "_includes/" ".sass-cache/" "_posts/" "_layouts/" "_data/" ".git/" "atom.xml" "docs/" "CNN_CORT/" "css/" "media/" "_site/" "README.md" "index.html" "_pages/" "feed.xml" "CVpapers/" "_sass/" ".jekyll-metadata" "blog/" "fonts/" "_config.yml" "./" "img/" ".ftpconfig" "js/" "../" ".gitignore")
+
+ ("/home/s/w/lab_notebook/papers/Kamnitsas_2017/" (22652 35558 984213 32000) "Kamnitsas - 2016 - Unsupervised domain adaptation in brain lesion segmentation with adversarial networks(1).pdf" "summary.org" "media/" "summary.org~" "./" "../")
+
+ ("/home/s/w/lab_notebook/papers/" (22647 43862 886580 639000) "readme.org" "Kamnitsas_2017/" "readme.org~" "./" "../")
+
+ ("/home/s/w/lab_notebook/" (22647 42500 647711 268000) "papers/" ".git/" "./" "../" ".gitignore")
+
+ ("/home/s/tmp/new_site/blog/_includes/" (22651 17569 947032 576000) "pagination.html" "header.html" "footer.html" "./" "title-group.html" "../" "tile.html")
+
+ ("/home/s/tmp/new_site/" (22651 23892 210474 554000) "blob_clean/" "todo.org" "blog/" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_data/" (22651 23222 319097 601000) "nav.yml" "./" "../" "global.yml")
+
+ ("/home/s/tmp/new_site/blog/_posts/" (22651 22664 696511 673000) "test.txt" "2017-01-14-new_website.md" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_pages/" (22651 22216 606230 482000) "software.md" "contact.md~" "publications.md~" "contact.md" "software.md~" "about.md" "./" "../" "publications.md")
+
+ ("/home/s/tmp/new_site/blog/_site/css/" (22651 14292 685069 130000) "style.css" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_sass/bootstrap/" (22651 3612 463965 850000) "_carousel.scss" "_panels.scss" "_breadcrumbs.scss" "_close.scss" "_responsive-utilities.scss" "_normalize.scss" "_code.scss" "_list-group.scss" "_pager.scss" "_labels.scss" "_input-groups.scss" "_thumbnails.scss" "_print.scss" "_progress-bars.scss" "_type.scss" "_button-groups.scss" "_variables.scss" "_responsive-embed.scss" "_tooltip.scss" "_grid.scss" "_alerts.scss" "_theme.scss" "_navbar.scss" "_dropdowns.scss" "_utilities.scss" "_scaffolding.scss" "_buttons.scss" "_wells.scss" "_badges.scss" "_popovers.scss" "_forms.scss" "_navs.scss" "mixins/" "_component-animations.scss" "_modals.scss" "_tables.scss" "_mixins.scss" "./" "_pagination.scss" "_media.scss" "../" "_jumbotron.scss" "_glyphicons.scss")
+
+ ("/home/s/w/" (22647 40966 240408 765000) "CNN_STRUCT/" "CNN/" "lab_notebook/" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_layouts/" (22650 41882 289930 942000) "general.html~" "general.html" "default.html" "inner.html" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_sass/" (22650 23200 408414 121000) "_syntax-highlighting.scss" "bootstrap/" "_bootstrap.scss" "./" "../")
+
+ ("/home/s/tmp/new_site/blog/_site/about/" (22650 27562 146219 784000) "index.html" "./" "../")
+
+ ("/home/s/Downloads/" (22650 18443 59812 343000) "itksnap-2.2.0-20110504-Linux-x86_64/" "README.txt~" "IBSR_07_ANALYZE(1).tgz" "House of Cards - Temporada 4 [HDTV][Cap.411][Español Castellano]/" "Massive Attack/" "tajbakhsh16.pdf" "House of Cards - Temporada 4 [HDTV][Cap.413][Español Castellano]/" "House of Cards - Temporada 4 [HDTV][Cap.412][Español Castellano]/" "brosch_predictiong.pdf" "La.Grande.Bellezza.[The.Great.Beauty].2013.DVDRip.vose cn.avi" "cuda2/" "No Protection/" "House of Cards - Temporada 4 [HDTV][Cap.403][Español Castellano]/" "House of Cards - Temporada 4 [HDTV][Cap.409][Español Castellano]/" "cudnn-7.5-linux-x64-v5.1.tgz" "elsarticle-template.pdf" "Trouble Will Find Me/" "P041_AMIDAMENTS_A4.pdf" "IBSR_15_ANALYZE(1).tgz" "P041_AMIDAMENTS_A2.pdf" "House of Cards - Temporada 4 [HDTV][Cap.406][Español Castellano]/" "WhatsApp Image 2016-12-04 at 17.32.38.jpeg" "Grouper - The Man Who Died In His Boat 2013.MP3.New.Release {1337x} -mortar12/" "cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64.deb" "Resume.pdf" "1-s2.0-S1361841516300330-main.pdf" "BIANCA_griffanti_NI2016.pdf" "10.1038@nature20101.pdf" "f-rcnn.pdf" ".ipynb_checkpoints/" "linux-headers-4.6.0-040600_4.6.0-040600.201606100558_all.deb" "README.txt" "Biblio.bib" "cv_16.zip" "poster(1).pdf" "cuda/" "100080007.pdf" "microsoft_2015.pdf" "alex_net.pdf" "itksnap-2.4.0-20121121-Linux-x86_64/" "Strands-WEB-2016.rar" "simplenote-1.0.3.deb" "MICCAI2016_MSSEG.zip" "Bon Iver - 22, A Million/" "Segmentation evaluation binaries.zip" "googlenet.pdf" "linux-headers-4.6.0-040600-generic_4.6.0-040600.201606100558_amd64.deb" "Zen en el arte del tiro con arco - Eugen Herrigel.epub" "rcnn.pdf" "House of Cards - Temporada 4 [HDTV][Cap.401][Español Castellano]/" "CL.pdf" "1-s2.0-S1053811916301902-main_NI2016.pdf" "IBSR_labels.m" "House of Cards - Temporada 4 [HDTV][Cap.407][Español Castellano]/" "faster_rcnn.pdf" "Pablo d_Ors-El amigo del desierto.epub" "report(1).pdf" "1-s2.0-S1361841516301621-main.pdf" "Sun Kil Moon - Benji [2014] 320/" "itksnap-2.0.0-20091117-Linux-x86_64/" "KOOI_MIA2016.pdf" "1606.09549v2.pdf" "main.tex" "report.pdf" "poster.pdf" "House of Cards - Temporada 4 [HDTV][Cap.410][Español Castellano]/" "1-s2.0-S1361841516301621-main(1).pdf" "99010054.pdf" "ubuntu-16.04.1-desktop-amd64.iso" "Instrumental - James Rhodes.epub" "10.1109@tmi.2016.2528162.pdf" "P041_AMIDAMENTS_A3.pdf" "House of Cards - Temporada 4 [HDTV][Cap.408][Español Castellano]/" "menze2014.pdf" "Buscando.A.Dory.TS-Screener.XviD.[DTL].avi" "Lecture-4-Matplotlib.ipynb~" "spatial_transformers_google2015.pdf" "House of Cards - Temporada 4 [HDTV][Cap.405][Español Castellano]/" "msseg_knight.pdf" "Jesu Sun Kil Moon/" "znet13.pdf" "P041 memòria valorada drenatge.pdf" "House of Cards - Temporada 4 [HDTV][Cap.402][Español Castellano]/" "bao2016.pdf" "Grouper - Ruins [2014] [Album]/" "Screen Shot 2016-12-22 at 08.20.44.png" "vgg14.pdf" "Brain_Structure_3DCNN.pdf" "StructuresDeepDeformable.pdf" "Scooby-Doo.And.WWE.La.Maldicion.Del.Demonio.Veloz.DVD.XviD.[www.DivxTotaL.com].avi" "1-s2.0-S1053811915011106-main.pdf" "laverna-0.7.1-linux-x64.zip" "99010054(1).pdf" "House of Cards - Temporada 4 [HDTV][Cap.404][Español Castellano]/" "1602.02130v1.pdf" "P041_AMIDAMENTS_A1.pdf" "linux-image-4.6.0-040600-generic_4.6.0-040600.201606100558_amd64.deb" "Zen y artes marciales - Taisen Deshimaru.epub" "Regreso_al_Futuro_1_MicroHD_1080p.torrent" "../" "./")
+
+ ("/home/s/tmp/IBSI18/" (22622 5886 224434 10000) "./" "../")
+
+ ("/home/s/w/CNN/analysis/preprocessing/" (22619 64015 241146 195000) "compute_rocs.org" "roc_voxel.mat" "#compute_rocs.org#" "miccai2008_analysis.tex" "miccai2008_analysis.tex~" ".tmp/" "miccai2008_analysis.org~" "miccai2008_analysis.org" "fp_3d.png" "roc_region.mat" "miccai2008_analysis.pdf" "compute_rocs.org~" "./" "../")
+
+ ("/bin/" (22608 6896 191154 613000) "pwd" "kbd_mode" "gunzip" "ntfsls" "run-parts" "zcat" "zsh" "mountpoint" "bzcmp" "systemd-machine-id-setup" "systemctl" "vdir" "bzegrep" "systemd-tmpfiles" "lsblk" "zforce" "unicode_start" "ntfscluster" "mv" "ntfs-3g" "dash" "loadkeys" "which" "kill" "bzip2recover" "sed" "gzip" "su" "whiptail" "fgconsole" "readlink" "sh.distrib" "dnsdomainname" "mt-gnu" "ip" "uncompress" "netstat" "findmnt" "ntfsfallocate" "lsmod" "less" "setfacl" "ed" "rzsh" "zsh5" "cpio" "tailf" "egrep" "zdiff" "bzcat" "zless" "zegrep" "chown" "cp" "zcmp" "fusermount" "df" "systemd" "pidof" "ulockmgr_server" "lesskey" "vmmouse_detect" "dir" "mktemp" "domainname" "ntfswipe" "stty" "mkdir" "bzfgrep" "static-sh" "systemd-inhibit" "ntfscmp" "systemd-tty-ask-password-agent" "ss" "true" "mount" "ping" "kmod" "nc" "bzgrep" "zfgrep" "false" "plymouth" "tar" "gzexe" "bzmore" "ln" "systemd-ask-password" "setupcon" "open" "setfont" "openvt" "dd" "znew" "nc.openbsd" "chvt" "ping6" "uname" "systemd-hwdb" "bzless" "zgrep" "tempfile" "date" "lessecho" "bzexe" "sh" "bunzip2" "ntfsinfo" "bzip2" "sleep" "lesspipe" "dmesg" "fgrep" "mknod" "more" "rm" "login" "fuser" "chmod" "loginctl" "cat" "udevadm" "chgrp" "getfacl" "zmore" "sync" "ls" "journalctl" "hostname" "busybox" "echo" "systemd-notify" "efibootmgr" "red" "grep" "dumpkeys" "networkctl" "systemd-escape" "ypdomainname" "ntfs-3g.usermap" "nisdomainname" "bash" "chacl" "ntfscat" "ntfsfix" "bzdiff" "./" "umount" "nano" "rbash" "ntfs-3g.probe" "rmdir" "ps" "hciconfig" "ntfstruncate" "ntfsmove" "lowntfs-3g" "netcat" "touch" "ntfs-3g.secaudit" "rnano" "../" "mt" "lessfile" "wdctl")
+
+ ("/home/s/.emacs.d/snippets/" (22611 54866 342565 904000) "org-mode/" "./" "../")
+
+ ("/home/s/.emacs.d/" (22609 50512 570536 331000) ".org-id-locations" "snippets/" "elpa/" "session.10400e5f255d7810f9147513622550979500000037730073" "ido.last~" "srecode-map.el" "ido.last" "session.106e92d57957c89d5814755044948408300000033730064" "url/" "auto-save-list/" "eshell/" ".mc-lists.el" "tramp" "ac-comphist.dat" "./" "../")
+
+ ("/home/s/.ipython/extensions/" (22409 60288 598050 370000) "./" "../")
+
+ ("/home/s/.ipython/" (22409 60288 598050 370000) "profile_default/" "nbextensions/" "extensions/" "./" "../")
+
+ ("/home/s/tmp/cv/" (22609 49602 220295 758000) "cover_letter.log" "cv_valverde.pdf" "cover_letter.tex~" "svv.png" "cover_letter.tex" "template.log" "cover_letter.aux" "new.tex" "LICENSE" "cv_valverde.aux" ".git/" "template.tex" "twentysecondcv.cls" "cv_valverde.log" "cover_letter.pdf" "twentysecondcv.log" "cv.log" "cv.pdf" "cv_valverde.out" "cv.tex" "alice.jpeg" "cv_valverde.tex" "./" "cv.aux" "../" "cover_letter.out")
+
+ ("/home/s/w/CNN/analysis/" (22610 45407 38536 975000) "first_experiments.org~" "experiments_VH_DA.tex" "updated_experiments.org~" "first_experiments.pdf" "experiments_VH_DA.pdf" "updated_experiments.org" "analysis_miccai.org" "experiments_VH_DA.tex~" ".ipynb_checkpoints/" "analysis_miccai.org~" "#experiments_VH_DA.org#" "analysis_miccai.tex~" "Untitled.ipynb" "updated_experiments.tex~" "updated_experiments.pdf" "first_experiments.tex" "analysis_miccai.tex" "first_experiments.tex~" "analysis_miccai.pdf" "preprocessing/" "experiments_VH_DA.org~" "experiments_VH_DA.org" "./" "updated_experiments.tex" "first_experiments.org" "../")
+
+ ("/home/s/tmp/webpage/" (22609 16460 8324 99000) "index.html" "CVpapers/" "./" "../")
+
+ ("/home/s/Documents/w/phd/personal_webpage/startbootstrap-one-page-wonder-1.0.3/" (22408 64115 454250 633000) "LICENSE" "css/" "README.md" "index.html" "fonts/" "./" "js/" "../")
+
+ ("/home/s/Documents/w/phd/personal_webpage/" (22408 63746 299916 154000) "startbootstrap-full-width-pics-1.0.3/" "startbootstrap-one-page-wonder-1.0.3/" "static/" "./" "../")
+
+ ("/home/s/Documents/w/phd/published_papers/NIC2014/paper/" (22408 64100 206172 945000) "main_doc_valverde_neuroimage.log" "main_doc_toword.tex" "main_doc_toword.dvi" "main_doc_neuroimage.aux" "main_doc.log" "main_doc_ynicl.tex" "main_doc_toword.tex~" "main_doc_neuroimage.tex~" "main_doc_ynicl.aux" "main_doc_valverde_neuroimage.spl" "main_doc_toword.log" "figure_1.eps" "main_doc.dvi" "figure_3_a.eps" "main_doc_neuroimage.dvi" "main_doc.lof" "main_doc.tex" "_region_.spl" "main_doc_toword.ttt" "main_doc.rtf" "main_valverde_draft.tex~" "figure_2_b.eps" "main_doc_valverde_neuroimage.pdf" "auto/" "main_doc_valverde_neuroimage.tex~" ".git/" "main_doc.tex~" "main_doc_neuroimage.tex" "figure_2_a.eps" "main_valverde_draft.aux" "main_valverde_draft.pdf" "main_doc.pdf" "main_doc_ynicl.log" "#main_doc_neuroimage.tex#" "main_doc.spl" "main_doc_valverde_neuroimage.aux" "main_doc.aux~" "main_doc.lot" "main_doc_neuroimage.log" "main_doc.fff" "main_doc_ynicl.spl" "main_doc_toword.lot" "main_doc_valverde_neuroimage.dvi" "figures/" "slf_valverde_et_al.pdf" "elsarticle.cls" "main_doc_ynicl.dvi" "main_valverde_draft.dvi" "main_valverde_draft.log" "main_doc_toword.aux" "main_doc_toword.rtf" "main_doc.ttt" "main_doc_toword.fff" "main_doc_toword.spl" "main_doc_neuroimage.spl" "figure_3_b.eps" "main_doc_valverde_neuroimage.tex" "main_doc.aux" "main_doc_ynicl.pdf" "main_valverde_draft.tex" "##abstract.txt##" "main_valverde_draft.spl" "./" "main_doc_toword.lof" "main_doc.tex.~master~" "abstract.txt" "../" "main_doc_ynicl.tex~")
+
+ ("/home/s/Documents/w/phd/published_papers/NIC2014/neuroimage/" (22592 17059 54204 733000) "highlights.docx.doc" "Cover_Letter.doc" "valverde_et_al_140314.docx" "valverde_et_al_180314.docx" "table_2.doc.docx" "main_title.doc.docx" "valverde_et_al_080314.docx" "valverde_et_al_180314_final.docx" "figures/" "main_title.docx" "table_1.doc.docx" "./" "../")
+
+ ("/home/s/Documents/w/phd/published_papers/NIC2014/" (22408 63534 697953 277000) "illustrations/" "comentaris_NIC/" "hbm/" "submission/" "paper/" "notes/" "neuroimage/" "./" "../")
+
+ ("/home/s/Documents/w/phd/published_papers/MIA2016/MIA/" (22608 7854 902533 80000) "highlights.pdf" "highlights.docx" "paper_zip/" "review/" "paper/" "title_page.pdf" "./" "../" "graphical_abstract.eps" "final/")
+
+ ("/home/s/tmp/webpage/css/" (22609 1481 526630 981000) "one-page-wonder.css" "bootstrap.css~" "bootstrap.css" "bootstrap.min.css" "one-page-wonder.css~" "./" "../")
+
+ ("/home/s/Dropbox/w/phd/" (22555 20015 982157 824000) "journals/" "./" "../")
+
+ ("/home/s/tmp/MSSEG2016/" (22520 14209 858541 102000) "scans.eps" "flair_slice.png" "T1.png" "t2_slice.png" "FLAIR.png" "PD.png" "T2.png" "t1_slice.png" "./" "../" "snapshot0001.png" "pd_slice.png")
+
+ ("/home/s/tmp/structs/code/" (22593 44290 906451 167000) "process_struct_scans.py" "process_struct_scans.py~" "./" "../")
+
+ ("/home/s/w/CNN/" (22592 20226 767145 100000) "analysis/" "MSSEG_challenge_paper/" ".ipynb_checkpoints/" "NRAD_pipelines/" "input_pipeline.eps" "mats/" "paper/" "neuroimage/" "./" "../")
+
+ ("/home/s/Documents/w/phd/published_papers/NIC2015/NIC/first_submission/" (22592 17061 750218 583000) "reviewer_suggestions.pdf" "Cover_Letter.docx" "valverde_NIC_final.docx" "highlights.pdf" "reviewer_suggestions.docx" "valverde_NIC_final.pdf" "figures/" "YNICL-S-15-00298_final.pdf" "highlights.odt" "Cover_Letter.pdf" "./" "../")
+
+ ("/home/s/tmp/test_org/" (22589 37148 637152 159000) "test.org~" "test.tex" "test.org" ".git/" "test.pdf" "test.html" "media/" "test.tex~" "test.html~" "./" "../")
+
+ ("/home/s/dev/" (22490 31358 136537 628000) "./" "../")
+
+ ("/mnt/" (22295 64949 0 0) "./" "../")
+
+ ("/home/" (22414 6499 485908 992000) "s/" "./" "../")
+
+ ("/home/s/.local/lib/python2.7/site-packages/" (22564 16610 146776 977000) "functools32-3.2.3.post2.dist-info/" "singledispatch_helpers.pyc" "pyflakes-1.2.3.dist-info/" "enum/" "jupyter_core/" "simplegeneric.py" "jupyter.py" "easy_install.py" "ipython_genutils/" "pexpect/" "decorator-4.0.10.dist-info/" "MarkupSafe-0.23.dist-info/" "wcwidth/" "flake8-3.0.4.dist-info/" "autopep8.pyc" "jedi-0.9.0.dist-info/" "shutil_backports/" "toolz/" "autopep8.py" "jupyter_console-5.0.0.dist-info/" "markupsafe/" "backports_abc.py" "qtconsole/" "cycler.py" "flake8/" "pylab.py" "dask-0.11.1.dist-info/" "pep8-1.7.0.dist-info/" "jupyter.pyc" "prompt_toolkit-1.0.7.dist-info/" "backports.shutil_get_terminal_size-1.0.0.dist-info/" "Jinja2-2.8.dist-info/" "tornado-4.4.1.dist-info/" "singledispatch.py" "pkg_resources/" "decorator.pyc" "yapftests/" "pandas/" "terminado-0.6.dist-info/" "pep8.pyc" "ipython_genutils-0.1.0.dist-info/" "scikit_learn-0.17.1.dist-info/" "ptyprocess/" "decorator.py" "sklearn-0.0.dist-info/" "pickleshare-0.7.4.dist-info/" "nibabel/" "widgetsnbextension-1.2.6.dist-info/" "Pygments-2.1.3.dist-info/" "ipython-5.1.0.dist-info/" "yapf/" "entrypoints-0.2.2.dist-info/" "pylab.pyc" "mistune.py" "pickleshare.py" "pyzmq-15.4.0.dist-info/" "ipykernel/" "traitlets/" "pycodestyle.py" "IPython/" "six.pyc" "cycler-0.10.0.dist-info/" "h5py/" "yapf-0.11.1.dist-info/" "dask/" "pip-9.0.1.dist-info/" "widgetsnbextension/" "sklearn/" "jupyter_client/" "ipywidgets/" "virtualenv-15.0.3.dist-info/" "pycodestyle-2.0.0.dist-info/" "h5py-2.6.0.dist-info/" "pycodestyle.pyc" "jupyter-1.0.0.dist-info/" "simplegeneric.pyc" "pickleshare.pyc" "virtualenv_support/" "singledispatch.pyc" "mpl_toolkits/" "configparser.pyc" "jsonschema-2.5.1.dist-info/" "pep8.py" "networkx-1.11.dist-info/" "jinja2/" "easy_install.pyc" "nbconvert-4.2.0.dist-info/" "setuptools/" "pytz-2016.6.1.dist-info/" "autopep8-1.2.4.dist-info/" "prompt_toolkit/" "matplotlib-1.5.3-py2.7-nspkg.pth" "certifi/" "pexpect-4.2.1.dist-info/" "zmq/" "jupyter_console/" "traitlets-4.3.0.dist-info/" "networkx/" "entrypoints.py" "jupyter_client-4.4.0.dist-info/" "jupyter_core-4.2.0.dist-info/" "seaborn-0.7.1.dist-info/" "notebook-4.2.3.dist-info/" "certifi-2016.8.31.dist-info/" "jsonschema/" "pathlib2.py" "virtualenv.pyc" "singledispatch-3.4.0.3.dist-info/" "pathlib2-2.1.0.dist-info/" "matplotlib-1.5.3.dist-info/" "ptyprocess-0.5.1.dist-info/" "pip/" "backports/" "simplegeneric-0.8.1.dist-info/" "nibabel-2.1.0.dist-info/" "configparser-3.5.0.dist-info/" "mccabe.py" "scikit_image-0.12.3.dist-info/" "matplotlib/" "backports_abc-0.4.dist-info/" "configparser.py" "nbformat-4.1.0.dist-info/" "scipy-0.18.0.dist-info/" "pyflakes/" "six.py" "ipywidgets-5.2.2.dist-info/" "pygments/" "setuptools-27.2.0.dist-info/" "pytz/" "mccabe.pyc" "entrypoints.pyc" "nbconvert/" "backports_abc.pyc" "pandas-0.19.1.dist-info/" "six-1.10.0.dist-info/" "notebook/" "terminado/" "pathlib2.pyc" "configparser-3.5.0-py2.7-nspkg.pth" "nbformat/" "qtconsole-4.2.1.dist-info/" "toolz-0.8.0.dist-info/" "mccabe-0.5.2.dist-info/" "ipykernel-4.5.0.dist-info/" "functools32/" "importmagic-0.1.7.dist-info/" "wcwidth-0.1.7.dist-info/" "nisext/" "tornado/" "jedi/" "mistune-0.7.3.dist-info/" "scipy/" "enum34-1.1.6.dist-info/" "singledispatch_helpers.py" "seaborn/" "importmagic/" "virtualenv.py" "mistune.pyc" "skimage/" "cycler.pyc" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
