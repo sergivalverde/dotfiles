@@ -44,7 +44,10 @@
 (add-hook 'after-init-hook 'global-company-mode)
 
 
-(when window-system (load-theme 'solarized-dark t))
+(when window-system
+  ;;(load-theme 'solarized-dark t)
+  (load-theme 'atom-one-dark t)
+  )
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -52,11 +55,12 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
+    ("08b8807d23c290c840bbb14614a83878529359eaba1805618b3be7d61b0b0a32" "a1289424bbc0e9f9877aa2c9a03c7dfd2835ea51d8781a0bf9e2415101f70a7e" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
  '(org-startup-indented t)
  '(safe-local-variable-values (quote ((org-download-image-dir . "media/"))))
  '(scroll-bar-mode nil)
  '(sentence-end-double-space nil)
+ '(show-paren-mode t)
  '(tool-bar-mode nil))
 
 (add-hook 'text-mode-hook 'turn-on-visual-line-mode)
@@ -72,6 +76,7 @@
 ;; ..................................................
 (require 'ob-ipython)
 (setq exec-path (append exec-path '("~/.local/bin")))
+(add-to-list 'load-path "~/.local/bin")
 (add-hook 'org-babel-after-execute-hook 'org-display-inline-images 'append)
 (setq org-src-fontify-natively t)
 
@@ -148,7 +153,7 @@
 (require 'deft)
 (setq deft-extensions '("org" "txt"))
 (setq deft-default-extension "org")
-(setq deft-directory "~/Dropbox/.org")
+(setq deft-directory "~/Dropbox/org")
 (setq deft-recursive t)
 (global-set-key [f2] 'deft)
 (global-set-key (kbd "C-c d n") 'deft-new-file)
@@ -175,6 +180,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Ubuntu Mono derivative Powerline" :foundry "DAMA" :slant normal :weight normal :height 113 :width normal))))
  '(ein:cell-input-area ((t (:background "#002b36")))))
 
 ;; ..................................................
