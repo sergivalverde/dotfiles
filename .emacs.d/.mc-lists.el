@@ -10,7 +10,9 @@
 	bibtex-find-text
 	elpy-goto-definition
 	elpy-importmagic-add-import
+	elpy-multiedit-python-symbol-at-point
 	goto-line
+	ido-switch-buffer
 	kill-region
 	kill-visual-line
 	magit-push-popup
@@ -37,6 +39,7 @@
 (setq mc/cmds-to-run-once
       '(
 	elpy-flymake-next-error
+	elpy-flymake-previous-error
 	end-of-buffer
 	org-metaright
 	org-yank

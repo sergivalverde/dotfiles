@@ -92,7 +92,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout default
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle; border toggle 
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -135,7 +135,7 @@ bindsym $mod+Shift+parenright move container to workspace 9
 bindsym $mod+Shift+equal move container to workspace 10
 
 # borders
-new_window pixel 1 
+new_window pixel 1
 
 # startup applications
 bindsym $mod+Shift+B exec firefox
@@ -185,7 +185,7 @@ exec --no-startup-id redshift -l 41.98:2.82
 exec xset b off
 exec albert
 exec xscreensaver -no-splash
-exec bluetooth off
+exec bluetooth on
 exec dropbox start
 exec --no-startup-id nm-applet
 exec acpid
@@ -202,10 +202,8 @@ exec unity-settings-daemon
 # gnome 
 for_window [title="System Settings*"] floating enable; focus mode_toggle
 for_window [class="Xfce4-notifyd*"] floating enable; focus mode_toggle
-# MATLAB
-for_window [title="SPM8*"] floating enable; focus mode_toggle
-for_window [title="Batch Editor*"] floating enable; focus mode_toggle
-for_window [title="Figure*"] floating enable; focus mode_toggle
+for_window [class="Nautilus*"] floating enable; focus mode_toggle; border toggle
+
 
 
 # --------------------------------------------------
