@@ -1,0 +1,109 @@
+%\documentclass[final, authoryear, 2p, super,12pt, onecolumn]{elsarticle}
+\documentclass[11pt, authoryear,twocolumn, final]{elsarticle}
+\usepackage{amssymb}
+\usepackage{pifont}
+%biboptions{square}
+\usepackage{graphicx}
+\usepackage{subfig}
+%\usepackage{wrapfig}
+%\usepackage{color}
+\usepackage{natbib}
+\usepackage{amsmath}
+%\usepackage{endfloat}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usepackage{verbatim}
+
+% \usepackage[dvipsnames]{xcolor}
+\usetikzlibrary{shapes,arrows,chains}
+%\usepackage[active,tightpage]{preview}
+%\PreviewEnvironment{tikzpicture}
+
+\linespread{1}
+\usepackage{geometry}
+\geometry{margin=0.75in}
+
+\begin{document}
+
+\begin{frontmatter}
+
+
+  % \title{Automated sub-cortical brain tissue segmentation using a cascaded convolutional neural network approach}
+  \title{Automated sub-cortical brain tissue segmentation of magnetic resonance images using two connected convolutional neural networks}
+\author[label1]{Sergi Valverde \corref{corr1}}
+\author[label1]{Sandra~Gonz\'alez-Vill\`a}
+\author[label1]{Mostafa Salem}
+\author[label1]{Kaisar Kushibar}
+\author[label1]{Jos\'e Bernal}
+\author[label1]{Mariano~Cabezas}
+%\author[label1]{Jordi Freixenet}
+%\author[label1]{Joaquim Salvi}
+%\author[label1]{Joan Mart\'i}
+\author[label1]{Arnau~Oliver}
+\author[label1]{Xavier~Llad{\'o}}
+
+\address[label1]{Research institute of Computer Vision and Robotics, University of Girona, Spain}
+%\address[label2]{Magnetic Resonance Unit, Dept of Radiology, Vall d'Hebron University Hospital, Spain}
+%\address[label3]{Girona Magnetic Resonance Center, Spain}
+%\address[label4]{Multiple Sclerosis and Neuroimmunology Unit, Dr. Josep Trueta University Hospital, Spain}
+
+\cortext[corr1]{Corresponding author. S. Valverde, Ed. P-IV, Campus Montilivi, University of Girona, 17071 Girona (Spain).
+e-mail: svalverde@eia.udg.edu. Phone: +34 972 418878; Fax: +34 972 418976.}
+
+\begin{abstract}
+
+ 
+\end{abstract}
+
+\begin{keyword}
+Brain \sep MRI \sep automatic tissue segmentation, convolutional neural networks
+\end{keyword}
+\end{frontmatter}
+
+\newpage
+\section{Introduction}
+\label{sec:introduction}
+
+Over the last 40 years, Magnetic Resonance Imaging has evolved as an essential tool for the diagnosis and evaluation of several neurological disorders. In this scenario, a quantitative and qualitative analysis of brain structures can be very important, as these measurements have been demonstrated to be a important biomarkers in the Alzheimer disease \citep{}, Multiple Sclerosis \citep{}  
+
+
+Here and here.  This is a new test 
+
+Although expert manual annotations of lesions is feasible in practice, this task is both time-consuming and prone to inter-observer variability, which has been led progressively to the development of a wide number of automated lesion segmentation techniques \citep{Llado2012, Garcia-Lorenzo2013}.
+
+During the last years, a renewed interest in deep neural networks has been observed. Compared to classical machine learning approaches, deep neural networks require lower manual feature engineering, which in conjunction with the increase in the available computational power -mostly in graphical processor units (GPU)-, and the amount of available training data, make these type of techniques very interesting  \citep{LeCun2015}. In particular, convolutional neural networks (CNN) have demonstrated breaking performance in different domains such as computer vision semantic segmentation \citep{Simonyan2014} and natural language understanding \citep{Sutskever2014}.
+
+CNNs have also gained popularity in brain imaging, specially in tissue segmentation \citep{Zhang2015, Moeskops2016} and brain tumor segmentation \citep{Kamnitsas2016, Pereira2016, Havaei201718}. However, only a few number of CNN methods have been introduced so far to segment WM lesions of MS patients. \citet{Brosch2016} have proposed a cross-sectional MS lesion segmentation technique based on deep three-dimensional (3D) convolutional encoder networks with shortcut connections and two interconnected pathways. Furthermore, \citet{Havaei2016} have also introduced another lesion segmentation framework with independent image modality convolution pipelines that reduces the effect of missing modalities of new unseen examples.
+In both cases, authors reported a very competitive performance of their respective methods in public and private data such as the MS lesion segmentation challenge MICCAI2008  database\footnote{http://www.ia.unc.edu/MSseg}, which is nowadays considered as a performance benchmark between methods. 
+
+In this paper, we present a new pipeline for automated WM lesion segmentation of MS patient images, which is based on a cascade of two convolutional neural networks. Although similar cascaded approaches have been used with other machine learning techniques in brain MRI \citep{Moeskops2015,Wang2015}, and also in the context of CNNs for coronary calcium segmentation \citep{Wolterink2016a}, to the best of our knowledge this is the first work proposing a cascaded 3D CNN approach for MS lesion segmentation. Within our approach, WM lesion voxels are inferred using 3D neighboring patch features from different input modalities. The proposed architecture builds on an initial prototype that we presented at the recent Multiple Sclerosis Segmentation Challenge (MSSEG2016) \citep{Commowick2016}\footnote{https://portal.fli-iam.irisa.fr/msseg-challenge/workshop-day}. That particular pipeline showed very promising results, outperforming the rest of participant methods in the overall score of the challenge. However, the method presented here has been redesigned based on further experiments to determine optimal patch size, regularization and post-processing of lesion candidates. As in previous studies \citep{Roura2015, Guizard2015, Strumia2016, Brosch2016}, we validate our approach with both public and private MS datasets. First, we evaluate the accuracy of our proposed method with the MICCAI2008  public dataset to compare the performance with respect to state-of-the-art MS lesion segmentation tools. Secondly, we perform an additional evaluation on two private MS clinical datasets, where the performance of our method is also compared with different recent public available state-of-the-art MS lesion segmentation methods. 
+
+\section{Methods}
+\label{sec:materials_methods}
+
+
+\subsection{Implementation}
+
+The proposed method has been implemented in the Python language\footnote{https://www.python.org/}, using Keras\footnote{https://keras.io/} and Theano\footnote{http://deeplearning.net/software/theano/} \citep{Bergstra2011} libraries. All experiments have been run on a GNU/Linux machine box running Ubuntu 14.04, with 32GB RAM memory. CNN training has been carried out on a single Tesla K-40c GPU (NVIDIA corp, United States) with 12GB RAM memory. The proposed method is currently available for downloading at our research website\footnote{https://github.com/NIC-VICOROB/cnn-ms-lesion-segmentation}. 
+
+\section{Experimental Results}
+
+
+
+
+\section{Discussion}
+\label{sec:discussion}
+
+
+\section{Conclusions}
+
+
+\section*{Acknowledgements}
+This work has been partially supported by "La Fundaci\'{o} la Marat\'{o} de TV3", by Retos de Investigaci\'{o}n TIN2014-55710-R, and by the MPC UdG 2016/022 grant. The authors  gratefully acknowledge the support of the NVIDIA Corporation with their donation of the Titan-X GPU used in this research.
+
+\label{sec:conclusion}
+\bibliographystyle{apalike}
+\bibliography{bibtex}
+
+\end{document}
