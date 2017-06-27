@@ -1,0 +1,35 @@
+#!/bin/bash
+
+HOME='/home/s/'
+INTERNAL_OUTPUT="eDP-1"
+
+# if we don't have a file, start at zero
+if [ ! -f $HOME$'/.i3/monitor_mode.dat' ] ; then
+    monitor_mode="all"
+    
+# otherwise read the value from the file
+else
+  monitor_mode=`cat $HOME$'/.i3/monitor_mode.dat'`
+fi
+
+
+if [ $monitor_mode = "all" ]; then
+    monitor_mode="EXTERNAL"
+    xrandr | grep "HDMI-2 connected" | ifne xrandr --output $INTERNAL_OUTPUT --off --output HDMI-2 --auto
+    xrandr | grep "eDP1 connected" | ifne xrandr --output $INTERNAL_OUTPUT --off --output eDP-1 --auto
+elif [ $monitor_mode = "EXTERNAL" ]; then
+    monitor_mode="INTERNAL"
+    xrandr | grep "HDMI-2 connected" | ifne xrandr --output $INTERNAL_OUTPUT --auto --output HDMI-2 --off
+    xrandr | grep "eDP-1 connected" | ifne xrandr --output $INTERNAL_OUTPUT --auto --output e-DP1 --off
+else
+    monitor_mode="all"
+    xrandr | grep "HDMI-2 connected" | ifne xrandr --output $INTERNAL_OUTPUT --auto --primary --output HDMI-2 --auto --right-of $INTERNAL_OUTPUT
+    xrandr | grep "eDP-1 connected" | ifne xrandr --output $INTERNAL_OUTPUT --auto --primary  --output eDP-1 --auto --right-of $INTERNAL_OUTPUT
+
+fi
+echo $monitor_mode
+
+# reset the background image
+nitrogen -set-auto -set-centered --restore &
+
+echo "${monitor_mode}" > $HOME/$'.i3/monitor_mode.dat'
