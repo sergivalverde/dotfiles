@@ -3,9 +3,12 @@
 #
 #  +++ TESTED CONFIGURATION (Thinkpad x260) ++++
 #
-# - dmenu starts on the bottom of the screen
-# - On Startup, xfce4-volumed, xfce4-notifyd and nm-applet are loaded
-# - redshift and Trackpoint setup are also laoded
+# - rofi replaces dmenu
+# - using conpton as a composite manager:
+# - starting software:
+#   - dropbox
+#   - np-applet
+#   - redshift
 # - conky is used on the i3bar replacing i3status ~/.i3/i3_conkyrc 
 #
 # **************************************************
@@ -50,7 +53,11 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+Q kill
 
 # dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -b
+# bindsym $mod+d exec dmenu_run -b
+bindsym $mod+d exec zsh -c "rofi -show run" # -fg "#f1f1f1" -bg "#333333" -hlfg "#ffffff" -hlbg "#336699" -o 85"
+bindsym $mod+shift+d exec zsh -c "rofi -show window" #-fg "#f1f1f1" -bg "#333333" -hlfg "#ffffff" -hlbg "#336699" -o 85"'
+bindsym $mod+shift+s exec zsh -c "rofi -show ssh" #-fg "#f1f1f1" -bg "#333333" -hlfg "#ffffff" -hlbg "#336699" -o 85"'
+bindsym XF86Display exec zsh -c "rofi -modi select_display:/home/s/.i3/rofi_display_switcher.sh -show select_display" 
 
 # change focus
 bindsym $mod+j focus left
@@ -149,7 +156,7 @@ bindsym $mod+Shift+C reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
-# bindsym $mod+Shift+O exit
+bindsym $mod+Shift+O exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -179,21 +186,47 @@ bindsym $mod+r mode "resize"
 
 # --------------------------------------------------
 # general configuration: startup applications
-# --------------------------------------------------
-exec feh --bg-scale /usr/share/backgrounds/Cielo_estrellado_by_Eduardo_Diez_Viñuela.jpg    
 exec --no-startup-id redshift -l 41.98:2.82
 exec xset b off
-exec albert
+# exec albert
 exec xscreensaver -no-splash
 exec bluetooth on
 exec dropbox start
 exec --no-startup-id nm-applet
+exec --no-startup-id compton --config ~/.compton.conf
 exec acpid
-exec xfce4-power-manager
-exec xfce4-notifyd
-exec xfce4-volumed
-#exec xfsettingsd 
-exec unity-settings-daemon
+# exec -no-startup-id unity-settings-daemon --replace > /dev/null 2>&1 &
+
+# --------------------------------------------------
+# screen config
+# bindsym XF86Display exec --no-startup-id /home/s/.i3/switch_screen
+
+bindsym $mod+Ctrl+l exec --no-startup-id /home/s/.i3/select_screen laptop
+bindsym $mod+Ctrl+b exec --no-startup-id /home/s/.i3/select_screen both
+bindsym $mod+Ctrl+e exec --no-startup-id /home/s/.i3/select_screen external
+
+
+#exec --no-startup-id xrandr --output eDP-1 --auto --primary
+
+
+# disable the annonying touchpad
+exec synclient TouchPadOff=1
+# If we find that a screen is connected via VGA, activate it and position it
+# to the left of the primary screen.
+
+exec feh --bg-scale /usr/share/backgrounds/yosemite_background.jpg    
+#exec nitrogen -set-auto -set-centered --restore &
+# --------------------------------------------------
+
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 20 # increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 20 # decrease screen brightness
 
 # --------------------------------------------------
 # floating windows
@@ -203,8 +236,6 @@ exec unity-settings-daemon
 for_window [title="System Settings*"] floating enable; focus mode_toggle
 for_window [class="Xfce4-notifyd*"] floating enable; focus mode_toggle
 for_window [class="Nautilus*"] floating enable; focus mode_toggle; border toggle
-
-
 
 # --------------------------------------------------
 # i3bar config
