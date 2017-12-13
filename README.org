@@ -7,5 +7,3 @@ Some configuration files for my everyday GNU/Linux tools. Most of them are prett
 - i3 window manager 
 - emacs 
 - terminator 
-
-
