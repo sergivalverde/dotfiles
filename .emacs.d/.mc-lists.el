@@ -3,46 +3,9 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-	autopair-insert-opening
-	autopair-insert-or-skip-quote
-	autopair-skip-close-maybe
-	beginning-of-visual-line
-	bibtex-find-text
-	elpy-goto-definition
-	elpy-importmagic-add-import
-	elpy-multiedit-python-symbol-at-point
-	goto-line
-	ido-switch-buffer
-	kill-region
-	kill-visual-line
-	magit-push-popup
-	org-backward-paragraph
-	org-beginning-of-line
-	org-ctrl-c-ctrl-c
-	org-ctrl-c-star
-	org-cycle
-	org-delete-char
-	org-end-of-line
-	org-force-self-insert
-	org-kill-line
-	org-self-insert-command
-	org-shifttab
-	org-shiftup
-	org-table-copy-down
-	python-nav-forward-block
-	save-some-buffers
-	sgml-delete-tag
-	sgml-slash
-	yas-expand
-	))
+        crux-move-beginning-of-line
+        ))
 
 (setq mc/cmds-to-run-once
       '(
-	elpy-flymake-next-error
-	elpy-flymake-previous-error
-	end-of-buffer
-	org-metaright
-	org-yank
-	outline-next-visible-heading
-	sgml-name-char
-	))
+        ))

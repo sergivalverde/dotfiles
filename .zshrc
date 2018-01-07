@@ -92,6 +92,5 @@ export PATH="/home/s/.local/bin:$PATH"
 export PATH="/home/s/scripts/:$PATH"
 
 # user ALIAS
-alias llebre_session="ssh -C llebre -t tmux a"
-alias knuth_session="ssh -C knuth -t tmux a"
-
+# alias llebre_session="ssh -C llebre -t tmux a"
+# alias knuth_session="ssh -C knuth -t tmux a"

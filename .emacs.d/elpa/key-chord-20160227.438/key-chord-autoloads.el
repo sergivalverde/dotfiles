@@ -1,10 +1,10 @@
 ;;; key-chord-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "key-chord" "key-chord.el" (22643 13084 449404
-;;;;;;  19000))
+;;;### (autoloads nil "key-chord" "key-chord.el" (23122 20285 840042
+;;;;;;  246000))
 ;;; Generated autoloads from key-chord.el
 
 (autoload 'key-chord-mode "key-chord" "\

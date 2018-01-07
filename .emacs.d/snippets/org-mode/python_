@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: python block
-# key: py
-# --
-#+BEGIN_SRC python :session :exports ${1:both}
-$0
-#+END_SRC
-
